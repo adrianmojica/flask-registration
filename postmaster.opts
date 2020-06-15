@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/12/bin/postgres "-D" "/Users/adrianmojica/Documents/Dev/userRegistration" "-p" "5432"
