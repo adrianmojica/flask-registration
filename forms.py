@@ -39,3 +39,14 @@ class RegisterForm(FlaskForm):
 
 class DeleteForm(FlaskForm):
     """leave empty"""
+
+class AddFeedbackForm(FlaskForm):
+    """Form for feedback."""
+    title = StringField(
+        "Title",
+        validators=[InputRequired(), Length(min=1,max=100)]
+    )
+    content = StringField(
+        "Content",
+        validators=[InputRequired(), Length(min=1)]
+    )
