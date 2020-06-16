@@ -4,3 +4,25 @@
 2020-06-15 10:31:29.541 PDT [1263] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2020-06-15 10:31:29.559 PDT [1264] LOG:  database system was shut down at 2020-06-15 10:31:29 PDT
 2020-06-15 10:31:29.571 PDT [1263] LOG:  database system is ready to accept connections
+2020-06-15 14:32:19.675 PDT [1263] LOG:  received fast shutdown request
+2020-06-15 14:32:19.678 PDT [1263] LOG:  aborting any active transactions
+2020-06-15 14:32:19.682 PDT [1263] LOG:  background worker "logical replication launcher" (PID 1270) exited with exit code 1
+2020-06-15 14:32:19.682 PDT [1265] LOG:  shutting down
+2020-06-15 14:32:19.700 PDT [1263] LOG:  database system is shut down
+2020-06-15 14:32:20.472 PDT [3701] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2020-06-15 14:32:20.475 PDT [3701] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-15 14:32:20.475 PDT [3701] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-15 14:32:20.476 PDT [3701] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-15 14:32:20.507 PDT [3702] LOG:  database system was shut down at 2020-06-15 14:32:19 PDT
+2020-06-15 14:32:20.513 PDT [3701] LOG:  database system is ready to accept connections
+2020-06-16 15:03:47.978 PDT [3738] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2020-06-16 15:03:47.981 PDT [3738] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-16 15:03:47.981 PDT [3738] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-16 15:03:47.982 PDT [3738] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-16 15:03:48.002 PDT [3739] LOG:  database system was interrupted; last known up at 2020-06-15 14:41:03 PDT
+2020-06-16 15:03:48.330 PDT [3739] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-06-16 15:03:48.336 PDT [3739] LOG:  redo starts at 0/166DA28
+2020-06-16 15:03:48.336 PDT [3739] LOG:  invalid record length at 0/166DB10: wanted 24, got 0
+2020-06-16 15:03:48.336 PDT [3739] LOG:  redo done at 0/166DAD8
+2020-06-16 15:03:48.351 PDT [3738] LOG:  database system is ready to accept connections
+2020-06-16 15:19:10.128 PDT [4093] LOG:  unexpected EOF on client connection with an open transaction
